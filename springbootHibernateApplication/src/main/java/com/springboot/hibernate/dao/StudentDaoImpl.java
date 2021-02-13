@@ -11,7 +11,6 @@ import com.springboot.hibernate.entity.Student;
 @Repository
 public class StudentDaoImpl implements StudentDao {
 
-	// Dao Implementation class 
 	@Autowired
 	private SessionFactory sessionFactory;
 
